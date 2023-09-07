@@ -1,0 +1,78 @@
+Scenraio: Login application 
+given user name enter
+and Password enter
+then Do a reservation " <Pick up>" and "<drop location>"
+		|Pickup|location|
+		|VTX    | BRL   |
+		|Chandi | Tirupati|
+*************************************************************************************************************************
+ScenrioOutLine:Login application
+given user name enter
+and Password enter
+then Do a reservation " <Pick up>" and "<drop location>"
+ExampleS: 
+		|Pickup|location|
+		|VTX    | BRL   |
+		|Chandi | Tirupati|
+		
+*************************************************************************************************************************		
+XSSFWorkBook wb = new XSSFWorkBook(new file("Path of file"));
+XSSFSheet sheet = wb.getSheetname("name");
+
+int noOFROws = sheet.getPhysicalRows();
+
+int noOfCOlums = sheet.getRow(0).getlasColumn();
+
+for(int i=0;i<rows;i++){
+	try{
+	sheet.getRow(i).getColm(0).getStringCellvalue();
+}
+Catch(Exception e){
+sheet.getRow(i).getColm(0).getNumericCellvalue();
+}
+*************************************************************************************************************************
+
+String query1= "Select * from Customers"
+		Class.forName(com.jdbc.mysql.jc.driver)
+Connection con = DriverManger.getConnection("//localhost","root","Password");
+Statement st = create""
+
+Result int = st.executeQuery(query1);
+
+*************************************************************************************************************************
+String parent = driver.getWindowHandle();***
+
+
+List<WebElement> windows = driver.getWindowHandles();***
+
+for(WebeElemt win: Windows){
+	if(!win.equalsto(parent)){
+	driver.manage.window.switchTo(win);       
+}
+*************************************************************************************************************************
+
+DropDown 
+
+<li></li>
+
+ List<WebElement> li = driver.findElements(By.tagname("li"));
+
+		for(int i=0;i<li.size();i++){
+			if(li.getindex(i).getText().equalto()."paramater").
+			li.getIndex(i).click();
+		}
+*************************************************************************************************************************		
+glue -{features, StepDef, Tags}
+
+
+*************************************************************************************************************************
+
+
+
+
+		
+		
+		
+		
+   
+
